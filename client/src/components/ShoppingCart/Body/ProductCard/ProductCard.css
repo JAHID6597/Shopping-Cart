@@ -1,0 +1,13 @@
+.productCardImage {
+  height: 300px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.starIcon {
+  color: #fdcc0d;
+}
+
+.productCardFooterButton {
+  width: 45%;
+}

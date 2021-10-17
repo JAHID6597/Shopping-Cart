@@ -1,0 +1,25 @@
+.productDetailsImageDiv img {
+  width: 100%;
+  height: 600px;
+  object-fit: contain;
+}
+
+.productColumn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.productDetailsDiv {
+  text-align: center;
+}
+
+.productDescription {
+  text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+  .productDetailsImageDiv img {
+    height: 300px;
+  }
+}

@@ -1,0 +1,26 @@
+.mainNavBar{
+  position: fixed;  
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.brand-title {
+  text-transform: uppercase;
+  font-size: 30px !important;
+  font-weight: bold;
+}
+
+.icon {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .brand-title {
+    font-size: 20px !important;
+  }
+  .icon {
+    font-size: 20px;
+  }
+}

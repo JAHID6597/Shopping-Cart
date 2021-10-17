@@ -1,0 +1,18 @@
+.shopBody {
+  padding-top: 90px;
+}
+
+.spinnerClass {
+  width: 6rem !important;
+  height: 6rem !important;
+}
+
+@media screen and (max-width: 768px) {
+  .shopBody {
+    padding-top: 70px;
+  }
+  .spinnerClass {
+    width: 3rem !important;
+    height: 3rem !important;
+  }
+}
